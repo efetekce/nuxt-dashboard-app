@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps<{ isOpen: boolean }>();
+// defineProps<{ isOpen: boolean }>();
 const items = ref([
   { title: "Overview", path: "/overview", icon: "mage:dashboard-chart" },
   { title: "Transactions", path: "/transactions", icon: "game-icons:money-stack" },
